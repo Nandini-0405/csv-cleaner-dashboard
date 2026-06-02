@@ -1,0 +1,134 @@
+/* Main Background */
+
+.stApp {
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+    color: #111827;
+}
+
+/* Main Text */
+
+html, body, [class*="css"] {
+    color: #111827;
+}
+
+/* Title */
+
+h1 {
+    color: #1f2937 !important;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+/* Subheaders */
+
+h2, h3 {
+    color: #111827 !important;
+    font-weight: 700;
+}
+
+/* Paragraph Text */
+
+p {
+    color: #374151 !important;
+    font-size: 18px;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+
+/* Sidebar Text */
+
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* Buttons */
+
+.stButton > button {
+    background-color: #2563eb;
+    color: white !important;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.03);
+}
+
+/* Download Button */
+
+.stDownloadButton > button {
+    background-color: #059669;
+    color: white !important;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.stDownloadButton > button:hover {
+    background-color: #047857;
+}
+
+/* Metric Cards */
+
+.metric-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Metric Card Headings */
+
+.metric-card h2 {
+    color: #2563eb !important;
+    font-size: 40px;
+}
+
+.metric-card h3 {
+    color: #374151 !important;
+}
+
+/* Dataframe */
+
+[data-testid="stDataFrame"] {
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #d1d5db;
+}
+
+/* Success Box */
+
+.stSuccess {
+    color: #065f46 !important;
+}
+
+/* Radio Buttons */
+
+.stRadio label {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* Selectbox */
+
+.stSelectbox label {
+    font-weight: bold;
+}
+
+/* Text Input */
+
+.stTextInput label {
+    font-weight: bold;
+}
